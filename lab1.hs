@@ -1,4 +1,8 @@
 import FiniteAutomata
+import Codec.Picture
+import Data.List as List
+import Data.Set as Set
+import Data.Map as Map
 
 img2dfa :: ImagePixels -> FiniteAutomata ImagePixels Int
 img2dfa img = aux 0 0 img fa
